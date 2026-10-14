@@ -52,6 +52,12 @@ order by total_visits desc;
 #### Result: 
 <img width="525" height="677" alt="Image" src="https://github.com/user-attachments/assets/714e7d43-bf7e-4427-8108-9ae9bd2958ce" />
 
+#### Insights:
+- Google was the largest traffic source, generating 38,400 visits, followed by Direct traffic with 19,891 visits. Tuy nhiên, Google có bounce rate cao hơn Direct (51.56% so với 43.27%).
+- YouTube had a high bounce rate despite substantial traffic. It generated 6,351 visits, with a bounce rate of 66.73%, the highest among the listed sources. Mobile Facebook (m.facebook.com) also had a high bounce rate of 64.28%.
+- Reddit showed the lowest bounce rate among the listed sources, at 28.57% across 189 visits. This suggests that Reddit visitors may have been more engaged, although the sample size is relatively small.
+- Direct traffic appeared more engaged than Google traffic, with a bounce rate 8.29 percentage points lower, despite receiving approximately half as many visits.
+
 ### 3. Revenue by traffic source by week, by month in June 2017
 ``` sql
      -- Revenue by month
@@ -83,6 +89,12 @@ order by revenue desc;
 #### Result: 
 <img width="781" height="677" alt="Image" src="https://github.com/user-attachments/assets/ab76e8bc-191a-4b31-a4fb-c62497e9bfad" />
 
+#### Insights:
+- Direct traffic generated the highest revenue among the sources shown, with monthly revenue of 97,333.62 in the query's reported units. This was substantially higher than Google's reported revenue of 18,757.18.
+- Direct revenue varied considerably across the reported weeks. The highest shown was 30,908.91 in week 24, followed by 27,295.32 in week 25. Week 22 was much lower at 6,888.90.
+- DFA showed weekly fluctuations, with revenue rising from 1,670.65 in week 22 to 3,704.74 in week 26.
+- Other sources, including Bing, chat.google.com, and dealspotr.com, generated comparatively small amounts of revenue in the displayed results.
+- 
 ### 4. Conversion rate by traffic source in 2017. (order by conversion_rate desc)
 ``` sql
 SELECT trafficSource.source source
