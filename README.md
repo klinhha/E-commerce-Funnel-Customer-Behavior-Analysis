@@ -198,6 +198,11 @@ order by ratio desc;
 #### Result: 
 <img width="525" height="108" alt="Image" src="https://github.com/user-attachments/assets/7e30b0b0-bd51-421a-952c-6c40ef715888" />
 
+#### Insights:
+- Desktop devices drive the vast majority of the revenue, accounting for 96.14% ($1,674,745.74 out of $1,742,046.97).
+- Mobile & Tablet Share: Mobile contributes 3.25% ($56,553.10), while tablets make up a minimal 0.62% ($10,748.13) of total revenue.
+- While traffic might be distributed differently, desktop users hold an overwhelming share of high-value conversions. Optimization efforts should focus on ensuring the desktop checkout experience remains frictionless, while investigating why mobile conversion/revenue contribution is disproportionately low.
+
 ### 8. Other products purchased by customers who purchased product "YouTube Men's Vintage Henley" in July 2017. 
 ``` sql
 -- List users bought product "YouTube Men's Vintage Henley"
@@ -227,6 +232,11 @@ order by quantity desc;
 
 #### Result:
 <img width="485" height="568" alt="Image" src="https://github.com/user-attachments/assets/9f6e5a69-950f-4d6c-96a6-7d5403379fc7" />
+
+#### Insights:
+- Google Sunglasses were the most popular complementary product, with 20 units sold, significantly more than any other item.
+- Other popular products included Google Women's Vintage Hero Tee Black (7 units) and SPF-15 Slim & Slender Lip Balm (6 units).
+- These findings suggest opportunities for cross-selling and product bundling, especially with Google-branded accessories and apparel.
 
 ### 9. Calculate cohort map from product view to addtocart to purchase in Jan, Feb and March 2017. For example, 100% product view then 40% add_to_cart and 10% purchase.
 - Option 1:
@@ -297,6 +307,11 @@ order by month;
 
 #### Result:
 <img width="784" height="109" alt="Image" src="https://github.com/user-attachments/assets/79574d43-f5de-4355-ae64-38ad63b01a35" />
+
+#### Insights:
+- The results show a consistent improvement in the conversion funnel from January to March 2017. The add-to-cart rate increased from 28.47% in January to 37.29% in March, while the purchase rate rose from 8.31% to 12.64%.
+- Although product views fluctuated, both add-to-cart and purchase counts increased, indicating improved customer engagement and purchasing performance.
+- The business could investigate which marketing campaigns or website changes contributed to this growth and apply successful strategies to further improve conversions.
 
 ### 10. Calculate revenue by week from May to July 2017 and culmulative revenue.
 ``` sql
