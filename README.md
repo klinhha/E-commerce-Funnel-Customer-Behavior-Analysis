@@ -34,9 +34,7 @@ order by month;
 <img width="636" height="107" alt="Image" src="https://github.com/user-attachments/assets/fd068a9a-e940-4a96-9edb-e79d8ab86bd5" />
 
 #### Insights:
-- March recorded the strongest overall performance. Visits increased from 62,192 in February to 69,931 in March (+12.4%), while pageviews rose by 11.2% and transactions increased by 35.5%.
-- Transactions grew faster than traffic. From January to March, visits increased by 8.1%, while transactions rose by 39.4%, suggesting that the website generated more transactions relative to its traffic.
-- February showed a slight decline in traffic but an increase in transactions. Visits fell by 3.9% and pageviews decreased by 9.4% compared with January, yet transactions increased by 2.8%.
+March 2017 delivered the strongest performance, with 69,931 visits, 259,522 pageviews, and 993 transactions. Although traffic declined in February, transactions continued to increase, suggesting an improvement in transaction efficiency. Overall, transactions grew by 39.4% from January to March, significantly outpacing the 8.1% growth in visits.
 
 ### 2. Bounce Rate by Traffic Source (Bounce_rate = num_bounce/total_visit) (order by total_visit DESC)
 ``` sql
@@ -53,10 +51,9 @@ order by total_visits desc;
 <img width="525" height="677" alt="Image" src="https://github.com/user-attachments/assets/714e7d43-bf7e-4427-8108-9ae9bd2958ce" />
 
 #### Insights:
-- Google was the largest traffic source, generating 38,400 visits, followed by Direct traffic with 19,891 visits. Tuy nhiên, Google có bounce rate cao hơn Direct (51.56% so với 43.27%).
-- YouTube had a high bounce rate despite substantial traffic. It generated 6,351 visits, with a bounce rate of 66.73%, the highest among the listed sources. Mobile Facebook (m.facebook.com) also had a high bounce rate of 64.28%.
-- Reddit showed the lowest bounce rate among the listed sources, at 28.57% across 189 visits. This suggests that Reddit visitors may have been more engaged, although the sample size is relatively small.
-- Direct traffic appeared more engaged than Google traffic, with a bounce rate 8.29 percentage points lower, despite receiving approximately half as many visits.
+- Google was the largest traffic source in July 2017, generating 38,400 visits, but its bounce rate was relatively high at 51.56%.
+- YouTube had the highest bounce rate among the listed sources at 66.73%, while Reddit recorded the lowest at 28.57%, albeit with only 189 visits.
+- Direct traffic showed a lower bounce rate than Google, suggesting stronger on-site engagement.
 
 ### 3. Revenue by traffic source by week, by month in June 2017
 ``` sql
@@ -85,16 +82,14 @@ where product.productRevenue is not NULL
 group by time_type, time, source
 order by revenue desc;
 ```
-
 #### Result: 
 <img width="781" height="677" alt="Image" src="https://github.com/user-attachments/assets/ab76e8bc-191a-4b31-a4fb-c62497e9bfad" />
 
 #### Insights:
-- Direct traffic generated the highest revenue among the sources shown, with monthly revenue of 97,333.62 in the query's reported units. This was substantially higher than Google's reported revenue of 18,757.18.
-- Direct revenue varied considerably across the reported weeks. The highest shown was 30,908.91 in week 24, followed by 27,295.32 in week 25. Week 22 was much lower at 6,888.90.
-- DFA showed weekly fluctuations, with revenue rising from 1,670.65 in week 22 to 3,704.74 in week 26.
-- Other sources, including Bing, chat.google.com, and dealspotr.com, generated comparatively small amounts of revenue in the displayed results.
-- 
+- Direct traffic generated the highest reported monthly revenue in June 2017, reaching 97,333.62, compared with 18,757.18 from Google.
+- Direct revenue fluctuated across the reported weeks, peaking at 30,908.91 in week 24 and remaining relatively high in week 25.
+- These results highlight the importance of Direct traffic as a revenue source and suggest that weekly performance should be monitored to understand revenue fluctuations across channels.
+
 ### 4. Conversion rate by traffic source in 2017. (order by conversion_rate desc)
 ``` sql
 SELECT trafficSource.source source
@@ -107,9 +102,13 @@ group by source
 having transactions >= 50
 order by conversion_rate desc;
 ```
-
 #### Result:
 <img width="628" height="108" alt="Image" src="https://github.com/user-attachments/assets/fcbe51d9-6509-4d11-8896-9352a30fb3f7" />
+
+#### Insights:
+- DFA achieved the highest conversion rate at 3.0%, outperforming Direct at 2.0% and Google at 1.0%, despite having significantly less traffic.
+- Direct generated the highest number of transactions (4,697), highlighting the importance of traffic volume alongside conversion efficiency.
+- These findings suggest that evaluating traffic sources by both conversion rate and transaction volume provides a more complete view of performance.
 
 ### 5. Average number of pageviews by purchaser type (purchasers vs non-purchasers) in June, July 2017.
 ``` sql
@@ -144,9 +143,11 @@ left join non_purchasers
 using(month)
 order by month;
 ```
-
 #### Result:  
 <img width="603" height="80" alt="Image" src="https://github.com/user-attachments/assets/d7291696-702f-4c09-a836-c4feaa1553f7" />
+
+#### Insights:
+Non-purchasers recorded substantially higher average pageviews than purchasers in both June and July 2017. However, average pageviews among purchasers increased from 94.02 in June to 124.24 in July (+32.1%), while the non-purchaser average rose more modestly from 316.87 to 334.06 (+5.4%). This suggests that browsing intensity alone may not explain purchasing behavior, and further investigation into user intent and checkout friction could help identify opportunities to improve conversion.
 
 ### 6. Average number of transactions per user that made a purchase in July 2017
 ``` sql
