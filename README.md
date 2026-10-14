@@ -147,7 +147,8 @@ order by month;
 <img width="603" height="80" alt="Image" src="https://github.com/user-attachments/assets/d7291696-702f-4c09-a836-c4feaa1553f7" />
 
 #### Insights:
-Non-purchasers recorded substantially higher average pageviews than purchasers in both June and July 2017. However, average pageviews among purchasers increased from 94.02 in June to 124.24 in July (+32.1%), while the non-purchaser average rose more modestly from 316.87 to 334.06 (+5.4%). This suggests that browsing intensity alone may not explain purchasing behavior, and further investigation into user intent and checkout friction could help identify opportunities to improve conversion.
+- The data highlights a substantial difference in average pageviews between purchasers and non-purchasers. Users who did not complete a purchase generally viewed more pages than those who made a purchase. For example, in June 2017, non-purchasers averaged 316.87 pageviews, compared with just 94.02 for purchasers.
+- Despite this high level of browsing activity, many users did not convert into customers, suggesting potential obstacles in the purchasing journey. To improve conversion rates, the business could focus on simplifying website navigation, optimizing product pages, and streamlining the checkout process to make purchasing easier and more convenient.
 
 ### 6. Average number of transactions per user that made a purchase in July 2017
 ``` sql
@@ -163,6 +164,9 @@ group by Month;
 
 #### Result: 
 <img width="343" height="53" alt="Image" src="https://github.com/user-attachments/assets/bd78da18-d26f-4d3f-b549-d6b55a10b25e" />
+
+#### Insights:
+The table shows that purchasing users averaged approximately 4.16 transactions per user in July 2017. This metric provides insights into purchasing behavior and can help businesses monitor customer activity and assess changes in purchasing patterns over time. It may also support the evaluation of marketing campaigns and promotional activities, although further analysis would be needed to determine their actual impact.
 
 ### 7. Revenue contribution by device (desktop,mobile...) (order by ratio desc)
 ``` sql
