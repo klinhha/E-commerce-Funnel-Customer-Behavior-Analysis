@@ -1,4 +1,4 @@
-# E-commerce Analytics Project (Google Analytics - BigQuery)
+# E-commerce Analytics Project (Google Analytics - SQL,BigQuery)
 ## I. Overview
  This project analyzes an e-commerce dataset using Google Analytics sample data on BigQuery. 
  
@@ -15,8 +15,13 @@
 - SQL (Google BigQuery)
 - Google Analytics Sample Dataset
 
-## IV. Dataset
- Source: ga_sessions_@BigQueryDateShardedTable
+## IV. Dataset Access & Explaination
+The E-commerce dataset is stored in the public Google Bigquery dataset. To access this dataset, follow these steps:
+- Log in to your **Google Cloud Platform** account and create a new project.
+- Navigate to the **BigQuery console** and select your newly created project.
+- Select **"Add Data"** in the navigation panel and then **"Search a project"**.
+- Enter the project ID "bigquery-public-data.google_analytics_sample.ga_sessions" and click "Enter".
+- Click on the "ga_sessions_" table to open it.
 
 ## V. Key Analyses & Results
 ### 1. Calculate total visit, pageview, transaction for Jan, Feb and March 2017 (order by month)
@@ -342,7 +347,7 @@ order by Week;
 - Week 201729 generated the highest revenue in the displayed results (approximately 57.1 million), making it worth investigating which products or campaigns drove this performance.
 - Total revenue reached approximately 425.3 million by week 201731, showing sustained revenue generation despite weekly fluctuations.
 
-## Conclusions & Recommendations:
+## VI. Conclusions & Recommendations
 ### 1. Conclusion
 This project used SQL and Google BigQuery to analyze eCommerce performance, revealing insights into customer behavior, marketing channels, conversion rates, and revenue trends. The results highlighted opportunities to improve conversion, strengthen marketing effectiveness, and increase sales through data-driven decisions.
 
