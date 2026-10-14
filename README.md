@@ -1,4 +1,4 @@
-# E-commerce Analytics Project (Google Analytics - SQL,BigQuery)
+# E-commerce Funnel & Customer Behavior Analysis (Google Analytics - SQL,BigQuery)
 ## I. Overview
  This project analyzes an e-commerce dataset using Google Analytics sample data on BigQuery. 
  
