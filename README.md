@@ -32,6 +32,7 @@ order by month;
 ```
 #### Result: 
 <img width="636" height="107" alt="Image" src="https://github.com/user-attachments/assets/fd068a9a-e940-4a96-9edb-e79d8ab86bd5" />
+
 #### Insights:
 - March recorded the strongest overall performance. Visits increased from 62,192 in February to 69,931 in March (+12.4%), while pageviews rose by 11.2% and transactions increased by 35.5%.
 - Transactions grew faster than traffic. From January to March, visits increased by 8.1%, while transactions rose by 39.4%, suggesting that the website generated more transactions relative to its traffic.
