@@ -336,3 +336,18 @@ order by Week;
 
 #### Result:
 <img width="417" height="406" alt="Image" src="https://github.com/user-attachments/assets/216a9a7d-3411-43ae-9d19-854be30f482f" />
+
+#### Insights:
+- Weekly revenue fluctuated considerably, suggesting that sales may be influenced by promotions, customer demand, or seasonal patterns.
+- Week 201729 generated the highest revenue in the displayed results (approximately 57.1 million), making it worth investigating which products or campaigns drove this performance.
+- Total revenue reached approximately 425.3 million by week 201731, showing sustained revenue generation despite weekly fluctuations.
+
+## Conclusions & Recommendations:
+### 1. Conclusion
+This project used SQL and Google BigQuery to analyze eCommerce performance, revealing insights into customer behavior, marketing channels, conversion rates, and revenue trends. The results highlighted opportunities to improve conversion, strengthen marketing effectiveness, and increase sales through data-driven decisions.
+
+### 2. Recommendations
+- Improve conversion rates: Simplify website navigation and checkout to reduce drop-offs in the purchasing funnel.
+- Optimize marketing channels: Evaluate traffic sources based on both conversion rates and revenue, not just visit volume.
+- Enhance mobile performance: Investigate the low mobile revenue contribution and improve the mobile shopping experience.
+- Increase sales opportunities: Use complementary product recommendations and monitor weekly revenue trends to identify opportunities for cross-selling and targeted promotions.
