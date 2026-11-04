@@ -4,18 +4,24 @@
  
  The goal is to understand user behavior, conversion performance, and revenue patterns across different traffic sources and devices.
 
-## II. Objectives
-- Analyze website traffic (visits, pageviews, transactions)
-- Evaluate marketing performance by traffic source
-- Measure conversion rate and user behavior
-- Understand purchase patterns and product relationships
-- Build funnel and cohort analysis
+### 1. Objectives
+- **Analyze** website traffic (visits, pageviews, transactions)
+- **Evaluate marketing performance** by traffic source
+- **Measure** **conversion rate** and user behavior
+- **Understand purchase patterns** and product relationships
+- **Build** **funnel** and cohort analysis
 
-## III. Tools & Technologies
+### 2. Who is this project for?
+- Data Analysts & Business Analysts
+- Digital Marketing Teams
+- E-commerce Managers & Stakeholders
+- Business Intelligence Teams
+
+## II. Tools & Technologies
 - SQL (Google BigQuery)
 - Google Analytics Sample Dataset
 
-## IV. Dataset Access & Explaination
+## III. Dataset Access & Explaination
 The E-commerce dataset is stored in the public Google Bigquery dataset. To access this dataset, follow these steps:
 - Log in to your **Google Cloud Platform** account and create a new project.
 - Navigate to the **BigQuery console** and select your newly created project.
@@ -23,7 +29,7 @@ The E-commerce dataset is stored in the public Google Bigquery dataset. To acces
 - Enter the project ID "bigquery-public-data.google_analytics_sample.ga_sessions" and click **Enter**.
 - Click on the "ga_sessions_" table to open it.
 
-## V. Key Analyses & Results
+## IV. Key Analyses & Results
 ### 1. Calculate total visit, pageview, transaction for Jan, Feb and March 2017 (order by month)
 ``` sql
 SELECT format_date('%Y%m', parse_date('%Y%m%d', date)) month
@@ -347,7 +353,7 @@ order by Week;
 - Week 201729 generated the highest revenue in the displayed results (approximately 57.1 million), making it worth investigating which products or campaigns drove this performance.
 - Total revenue reached approximately 425.3 million by week 201731, showing sustained revenue generation despite weekly fluctuations.
 
-## VI. Conclusions & Recommendations
+## V. Conclusions & Recommendations
 ### 1. Conclusion
 This project used SQL and Google BigQuery to analyze eCommerce performance, revealing insights into customer behavior, marketing channels, conversion rates, and revenue trends. The results highlighted opportunities to improve conversion, strengthen marketing effectiveness, and increase sales through data-driven decisions.
 
