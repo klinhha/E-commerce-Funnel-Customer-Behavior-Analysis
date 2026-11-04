@@ -354,11 +354,15 @@ order by Week;
 - Total revenue reached approximately 425.3 million by week 201731, showing sustained revenue generation despite weekly fluctuations.
 
 ## V. Conclusions & Recommendations
-### 1. Conclusion
-This project used SQL and Google BigQuery to analyze eCommerce performance, revealing insights into customer behavior, marketing channels, conversion rates, and revenue trends. The results highlighted opportunities to improve conversion, strengthen marketing effectiveness, and increase sales through data-driven decisions.
 
-### 2. Recommendations
-- Improve conversion rates: Simplify website navigation and checkout to reduce drop-offs in the purchasing funnel.
-- Optimize marketing channels: Evaluate traffic sources based on both conversion rates and revenue, not just visit volume.
-- Enhance mobile performance: Investigate the low mobile revenue contribution and improve the mobile shopping experience.
-- Increase sales opportunities: Use complementary product recommendations and monitor weekly revenue trends to identify opportunities for cross-selling and targeted promotions.
+| Insights | Recommendations |
+|---|---|
+| Transactions increased by 39.4% from January to March 2017, while visits grew by only 8.1%. | Investigate the factors behind conversion growth and identify ways to sustain the improvement. |
+| Google generated the highest traffic in July (38,400 visits), but had a 51.56% bounce rate. | Review landing pages and user engagement from Google traffic. |
+| Direct traffic generated higher June revenue (97,333.62) than Google (18,757.18). DFA achieved the highest conversion rate (3.0%), while Direct generated the most transactions (4,697). | Evaluate traffic sources using both revenue and conversion performance, rather than traffic volume alone. |
+| Non-purchasers viewed more pages than purchasers in June (316.87 vs. 94.02 average pageviews). | Simplify navigation, optimize product pages, and streamline checkout to reduce potential drop-offs. |
+| Desktop contributed 96.14% of total revenue, while mobile and tablet contributed only 3.25% and 0.62%. | Investigate the low mobile and tablet revenue contribution and improve the shopping experience across devices. |
+| The add-to-cart rate increased from 28.47% in January to 37.29% in March, while the purchase rate rose from 8.31% to 12.64%. | Identify successful campaigns or website changes that may have contributed to funnel improvement. |
+| Google Sunglasses was the most frequently purchased complementary product among customers who bought YouTube Men's Vintage Henley (20 units). | Explore product bundling and cross-selling opportunities using complementary purchase patterns. |
+| Weekly revenue fluctuated throughout May–July 2017, with the highest reported week reaching approximately 57.1 million. | Monitor weekly revenue trends and investigate the products or campaigns behind peak performance. |
+
