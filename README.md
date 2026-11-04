@@ -357,12 +357,12 @@ order by Week;
 
 | Insights | Recommendations |
 |---|---|
-| Transactions increased by 39.4% from January to March 2017, while visits grew by only 8.1%. | Investigate the factors behind conversion growth and identify ways to sustain the improvement. |
-| Google generated the highest traffic in July (38,400 visits), but had a 51.56% bounce rate. | Review landing pages and user engagement from Google traffic. |
-| Direct traffic generated higher June revenue (97,333.62) than Google (18,757.18). DFA achieved the highest conversion rate (3.0%), while Direct generated the most transactions (4,697). | Evaluate traffic sources using both revenue and conversion performance, rather than traffic volume alone. |
-| Non-purchasers viewed more pages than purchasers in June (316.87 vs. 94.02 average pageviews). | Simplify navigation, optimize product pages, and streamline checkout to reduce potential drop-offs. |
-| Desktop contributed 96.14% of total revenue, while mobile and tablet contributed only 3.25% and 0.62%. | Investigate the low mobile and tablet revenue contribution and improve the shopping experience across devices. |
-| The add-to-cart rate increased from 28.47% in January to 37.29% in March, while the purchase rate rose from 8.31% to 12.64%. | Identify successful campaigns or website changes that may have contributed to funnel improvement. |
-| Google Sunglasses was the most frequently purchased complementary product among customers who bought YouTube Men's Vintage Henley (20 units). | Explore product bundling and cross-selling opportunities using complementary purchase patterns. |
-| Weekly revenue fluctuated throughout May–July 2017, with the highest reported week reaching approximately 57.1 million. | Monitor weekly revenue trends and investigate the products or campaigns behind peak performance. |
+| Transactions **increased by 39.4%** from January to March 2017, while **visits** grew by only **8.1%**. | **Investigate** the factors behind conversion growth and **identify ways** to sustain the improvement. |
+| **Google** generated the **highest traffic** in July (38,400 visits), but had a **51.56% bounce rate**. | **Review landing pages** and user engagement from Google traffic. |
+| **Direct traffic** generated higher June revenue (97,333.62) than **Google** (18,757.18). **DFA** achieved the **highest conversion rate** (3.0%), while **Direct** generated the **most transactions** (4,697). | **Evaluate** traffic sources using both **revenue** and **conversion performance**, rather than traffic volume alone. |
+| **Non-purchasers** viewed more pages than **purchasers** in June (**316.87** vs. **94.02** average pageviews). | **Simplify** navigation, **optimize product pages**, and **streamline** checkout to reduce potential drop-offs. |
+| **Desktop** contributed **96.14%** of total revenue, while mobile and tablet contributed only **3.25%** and **0.62%**. | **Investigate** the low mobile and tablet revenue contribution and **improve** the shopping experience across devices. |
+| The **add-to-cart** rate increased from **28.47%** in January to **37.29%** in March, while **the purchase rate** rose from **8.31%** to **12.64%**. | **Identify** successful campaigns or website changes that may have contributed to funnel improvement. |
+| **Google Sunglasses** was the **most frequently** purchased complementary product among customers who bought YouTube Men's Vintage Henley (**20 units**). | **Explore product bundling** and cross-selling opportunities using complementary purchase patterns. |
+| Weekly revenue **fluctuated** throughout **May–July 2017**, with the **highest reported week** reaching approximately **57.1** million. | **Monitor** weekly revenue trends and **investigate** the products or campaigns behind peak performance. |
 
